@@ -5,9 +5,9 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="e1UbRBEiO8uX84VKru8T-62" value="VENTAS" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="160" height="180" as="geometry" />
+          <mxGeometry x="320" y="160" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="e1UbRBEiO8uX84VKru8T-63" value="PK id_ventas&lt;br&gt;PK id_productos&lt;br&gt;PK id_tienda&lt;div&gt;PK id_proveedor&lt;/div&gt;&lt;div&gt;PK id_promocion&lt;/div&gt;&lt;div&gt;PK id_fecha&lt;/div&gt;&lt;div&gt;+ cantidad&lt;/div&gt;&lt;div&gt;+ total_venta&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="e1UbRBEiO8uX84VKru8T-62">
+        <mxCell id="e1UbRBEiO8uX84VKru8T-63" value="PK id_ventas&lt;br&gt;FK id_productos&lt;br&gt;FK id_tienda&lt;div&gt;FK id_proveedor&lt;/div&gt;&lt;div&gt;FK id_promocion&lt;/div&gt;&lt;div&gt;FK id_fecha&lt;/div&gt;&lt;div&gt;+ cantidad&lt;/div&gt;&lt;div&gt;+ total_venta&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="e1UbRBEiO8uX84VKru8T-62">
           <mxGeometry y="50" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="e1UbRBEiO8uX84VKru8T-69" value="PRODUCTO" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -17,13 +17,13 @@
           <mxGeometry y="50" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e1UbRBEiO8uX84VKru8T-71" value="TIENDA" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="140" height="140" as="geometry" />
+          <mxGeometry x="100" y="40" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="e1UbRBEiO8uX84VKru8T-72" value="+ id_tienda&lt;br&gt;+ nombre_tienda&lt;br&gt;+ ciudad&lt;div&gt;+ region&lt;/div&gt;&lt;div&gt;+ tipo_tienda&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="e1UbRBEiO8uX84VKru8T-71">
           <mxGeometry y="50" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e1UbRBEiO8uX84VKru8T-73" value="PROVEEDOR" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="400" width="140" height="120" as="geometry" />
+          <mxGeometry x="100" y="400" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="e1UbRBEiO8uX84VKru8T-74" value="+ id_proveedor&lt;br&gt;+ nombre_proveedor&lt;br&gt;+ pais_origen&lt;div&gt;+ tipo_proveedor&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="e1UbRBEiO8uX84VKru8T-73">
           <mxGeometry y="50" width="140" height="70" as="geometry" />
@@ -33,6 +33,12 @@
         </mxCell>
         <mxCell id="e1UbRBEiO8uX84VKru8T-76" value="+ id_promocion&lt;br&gt;+ descripcion&lt;br&gt;+ tipo_promocion&lt;div&gt;+ fecha_inicio&lt;/div&gt;&lt;div&gt;+ fecha_fin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="e1UbRBEiO8uX84VKru8T-75">
           <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1UbRBEiO8uX84VKru8T-77" value="FECHA" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e1UbRBEiO8uX84VKru8T-78" value="+ id_fecha&lt;br&gt;+ anyo&lt;br&gt;+ mes&lt;div&gt;+ dia&lt;/div&gt;&lt;div&gt;+ semana_dia&lt;/div&gt;&lt;div&gt;+ trimestre&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="e1UbRBEiO8uX84VKru8T-77">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
