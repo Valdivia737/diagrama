@@ -1,9 +1,9 @@
 
 # Documentacion modelo ERD empresa retail!
 
--Autor: Oliver Valdivia
--Fecha: Octubre 2025
--Version: 1.0
+- Autor: Oliver Valdivia
+- Fecha: Octubre 2025
+- Version: 1.0
 
 Este modelo entidad–relación representa la estructura de datos de un sistema de ventas, que gestiona información de clientes, tiendas, productos, proveedores y promociones. Su objetivo es permitir el análisis de ventas por cliente, producto, tienda y/o período temporal, facilitando además la trazabilidad de proveedores y promociones aplicadas.
 
