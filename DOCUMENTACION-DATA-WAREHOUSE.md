@@ -1,7 +1,7 @@
 
 # Documentacion modelo ERD empresa retail!
 
-- Autor: Oliver Valdivia
+- Autor: Valdivia Oliver
 - Fecha: Octubre 2025
 - Version: 1.0
 
