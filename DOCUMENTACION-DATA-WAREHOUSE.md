@@ -80,4 +80,7 @@ proveedores y promociones.
 - Cada venta debe estar asociada a un cliente, tienda, producto, proveedor y fecha válidos.
 - La promoción puede ser nula si la venta no pertenece a ninguna oferta.
 - El campo total_venta debe ser igual a cantidad × precio_producto.
-- La edad del cliente debe ser mayor o igual a 18 años en casos de venta de alcohol
+- La edad del cliente debe ser mayor o igual a 18 años en casos de venta de alcohol.
+
+
+  [ DIAGRAMA ENTIDAD RELACION](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama-Retail.drawio&dark=auto#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FValdivia737%2Fdiagrama%2Fmain%2FDiagrama-Retail.drawio) :
