@@ -87,6 +87,5 @@ proveedores y promociones.
 
 [ VISUALIZACION DE DIAGRAMA ENTIDAD RELACION](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama-Retail.drawio&dark=auto#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FValdivia737%2Fdiagrama%2Fmain%2FDiagrama-Retail.drawio)
 
-
-> [!NOTA]
-> Este trabajo fue realizado solo con fines educativos.
+> [!NOTE]
+> Este trabajo fue realizado con fines educativos.
