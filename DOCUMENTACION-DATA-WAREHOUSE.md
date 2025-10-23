@@ -63,10 +63,8 @@ proveedores y promociones.
 
 
 
-#### Entidad: **VENTAS**
+## **Relaciones del Modelo**
 
-**Descripcion**: Registra las transacciones de venta, vinculando clientes, productos, tiendas,
-proveedores y promociones.
 
 | **Relacion** | **Entidades**     | **Tipo**     | **Descripcion**                |
 | :-------- | :------- | :------- | :------------------------- |
@@ -78,3 +76,8 @@ proveedores y promociones.
 | VENTAS – FECHA | VENTAS (N) – FECHA (1) | Muchos a uno. | Cada producto vendido proviene de un proveedor. |
 | VENTAS – PROMOCION | VENTAS (N) – PROMOCION (1) | Muchos a uno. | Identifica si la venta está asociada a una promoción. |
 
+## **Reglas de negocio**
+- Cada venta debe estar asociada a un cliente, tienda, producto, proveedor y fecha válidos.
+- La promoción puede ser nula si la venta no pertenece a ninguna oferta.
+- El campo total_venta debe ser igual a cantidad × precio_producto.
+- La edad del cliente debe ser mayor o igual a 18 años en casos de venta de alcohol
